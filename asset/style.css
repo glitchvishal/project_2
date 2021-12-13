@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Fuzzy+Bubbles&family=Patrick+Hand&family=Titillium+Web&display=swap');
 
 
-:root{
+:root {
     --highlight--color: blue;
 }
 
@@ -17,7 +17,7 @@ font-family: 'Fuzzy Bubbles', cursive;
 font-family: 'Patrick Hand', cursive;
 font-family: 'Titillium Web', sans-serif; */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     color: var(--highlight--color);
@@ -48,7 +48,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 
-.menu-list{
+.menu-list {
     position: absolute;
     top: 0;
     right: 0;
@@ -57,22 +57,23 @@ font-family: 'Titillium Web', sans-serif; */
     align-items: center;
     justify-content: center;
     transition: all 0.6s ease-in-out;
-    
+
 }
 
-.menu-list>ul{
+.menu-list>ul {
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    ;
     margin-right: 15px;
 }
 
-.menu-list>ul>li{
+.menu-list>ul>li {
     padding-left: 1px;
     list-style: none;
 }
 
-.menu-list>ul>li>a{
+.menu-list>ul>li>a {
     padding: 10px;
     text-decoration: none;
     color: black;
@@ -81,64 +82,64 @@ font-family: 'Titillium Web', sans-serif; */
     transition: all 0.3s;
 }
 
-.menu-list>ul>li>a:hover{
+.menu-list>ul>li>a:hover {
     opacity: 0.6;
 }
 
 /* //for js code */
-.scroll{
-    background-color:#fdfdfd;
+.scroll {
+    background-color: #fdfdfd;
     border-bottom: 1px solid var(--highlight--color);
 }
- 
 
-.home-section{
+
+.home-section {
     position: relative;
     margin-top: 150px;
-    margin-left: 150px; 
+    margin-left: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.home-section h1{
+.home-section h1 {
     font-size: 64px;
 }
 
-.home-section h1>div{
+.home-section h1>div {
     color: var(--highlight--color);
 }
 
-.img_2{
+.img_2 {
     background-size: cover;
-    margin: 2rem ;
+    margin: 2rem;
     margin-left: 50px;
     width: 50%;
     height: 300px;
     box-shadow: 3px 3px 15px 1px black;
 }
 
-.btn{
+.btn {
     border: 2px solid var(--highlight--color);
-    background-color:white;
+    background-color: white;
     padding: 5px;
     width: 6rem;
     margin: 3px;
-    font-size:16px;
+    font-size: 16px;
     transition: all 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
     color: aliceblue;
     background-color: var(--highlight--color);
     cursor: pointer;
 }
 
-.icon{
+.icon {
     padding: 10px;
 }
 
-.icon>img{
+.icon>img {
     height: 20px;
     width: 20px;
     padding: 2px;
@@ -146,35 +147,35 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 
-.section{
+.section {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img{
+.img {
     background-size: cover;
-    margin: 2rem ;
+    margin: 2rem;
     margin-left: 50px;
     width: 50%;
     height: 300px;
     box-shadow: 3px 3px 15px 1px black;
 }
 
-.about{
+.about {
     margin-top: 150px;
 }
 
-.about-heading{
+.about-heading {
     text-align: center;
 }
 
-.about-heading{
+.about-heading {
     font-size: 1.5em;
 }
 
-.about-content{
+.about-content {
     padding-bottom: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -184,19 +185,19 @@ font-family: 'Titillium Web', sans-serif; */
     margin-top: 150px;
 }
 
-.about-content>img{
+.about-content>img {
     border-radius: 15px;
     padding-bottom: 1rem;
     box-shadow: 3px 3px 15px 1px black;
 }
 
-.about h1{
+.about h1 {
     font-size: 2rem;
     font-weight: 800;
-    color:var(--highlight--color);
+    color: var(--highlight--color);
 }
 
-.about p{
+.about p {
     color: rgb(105, 100, 100);
     padding-top: 1rem;
     width: 40vw;
@@ -205,11 +206,11 @@ font-family: 'Titillium Web', sans-serif; */
     font-family: 'Arvo', serif;
 }
 
-.member-section{
+.member-section {
     margin-top: 150px;
 }
 
-.members{
+.members {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,14 +219,14 @@ font-family: 'Titillium Web', sans-serif; */
     margin-top: 150px;
 }
 
-.member-block>img{
+.member-block>img {
     background-size: cover;
     width: 500px;
     height: 400px;
     box-shadow: 3px 3px 15px 1px black;
 }
 
-.members-heading{
+.members-heading {
     text-align: center;
     color: var(--highlight--color);
     font-size: 2rem;
@@ -233,24 +234,24 @@ font-family: 'Titillium Web', sans-serif; */
     margin-bottom: 4rem;
 }
 
-.members-content{
+.members-content {
     width: 100%;
-    
+
 }
 
 
-.member-occuption{
-    font-size:30px;
+.member-occuption {
+    font-size: 30px;
     font-family: 'Patrick Hand', cursive;
     font-weight: 500;
     width: 12%;
     padding: 3px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    margin : 2px; 
+    margin: 2px;
 }
 
-.member-percents{
+.member-percents {
     font-weight: 600px;
     font-size: 18px;
     text-align: right;
@@ -261,25 +262,28 @@ font-family: 'Titillium Web', sans-serif; */
     border-radius: 20px;
 }
 
-.member-bar-student{
+.member-bar-student {
     height: 10px;
     border-radius: 20px;
     width: 55%;
     background-color: var(--highlight--color);
 }
-.member-bar-teacher{
+
+.member-bar-teacher {
     height: 10px;
     border-radius: 20px;
     width: 5%;
     background-color: var(--highlight--color);
 }
-.member-bar-pros{
+
+.member-bar-pros {
     height: 10px;
     border-radius: 20px;
     width: 40%;
     background-color: var(--highlight--color);
 }
-.member-bar-interns{
+
+.member-bar-interns {
     height: 10px;
     border-radius: 20px;
     width: 60%;
@@ -287,7 +291,7 @@ font-family: 'Titillium Web', sans-serif; */
 }
 
 
-.member-box{
+.member-box {
     justify-content: center;
     align-items: center;
     padding: 2rem;
@@ -299,15 +303,15 @@ font-family: 'Titillium Web', sans-serif; */
     color: black;
     border-radius: 5px;
     background: white;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 3.5px );
-    -webkit-backdrop-filter: blur( 3.5px );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .member-box>img {
-    height:4rem
+    height: 4rem
 }
 
 .work-section {
@@ -319,7 +323,7 @@ font-family: 'Titillium Web', sans-serif; */
 
 .work-content {
     display: grid;
-    grid-template-columns: repeat(3 ,375px);
+    grid-template-columns: repeat(3, 375px);
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -343,4 +347,107 @@ font-family: 'Titillium Web', sans-serif; */
 .work-content>img:hover {
     opacity: 0.5;
 }
+
+.contact {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+
+}
+
+.contact-heading {
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.contact-content {
+    background-color: var(--highlight--color);
+    margin-top: 40px;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: blue;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.contact-content>label {
+    font-size:  25px;
+    padding: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.form-control {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid black;
+}
+
+.text-area {
+    margin-bottom: 2rem;
+}
+
+.form-control .text-area:active{
+    border: 1px solid black;
+}
+
+.btn-contact{
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 2rem;
+    width: 17%;
+}
+
+
+.btn-contact:hover {
+    color: #fdfdfd;
+    cursor: pointer;
+    background: black;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: all 0.3s;
+}
+
+.footer{
+    background-color: #fdfdfd;
+}
+
+.footer>h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box2>img {
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    padding-left: 2px;
+}
+
 
